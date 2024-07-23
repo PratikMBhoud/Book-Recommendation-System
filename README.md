@@ -7,12 +7,14 @@ Item-Based Collaborative Filtering: Suggests books that are similar to the ones 
 Content-Based Filtering: Recommends books based on the content features such as genre, author, and book description.
 Hybrid Filtering: Combines collaborative and content-based filtering for more accurate recommendations.
 User Interface: An intuitive interface allowing users to search for books, view recommendations, and explore book details.
+
 Technology Stack
 Backend: Python, Flask
 Frontend: HTML, CSS, JavaScript, Bootstrap
 Database: PostgreSQL/MySQL
 Machine Learning: Scikit-learn, Pandas, Numpy
 Deployment: Heroku, AWS, Streamlit
+
 How It Works
 Data Collection: The system collects data on user preferences, including book ratings and reviews.
 Data Preprocessing: The collected data is cleaned and preprocessed to handle missing values and normalize the data.
@@ -20,6 +22,7 @@ Feature Engineering: Relevant features are extracted and transformed to create m
 Model Training: Machine learning models are trained using collaborative filtering and content-based filtering techniques.
 Recommendation Generation: The trained models generate personalized book recommendations for users.
 User Interaction: Users can interact with the system through a web interface to get book recommendations based on their preferences.
+
 Key Benefits
 Personalized Recommendations: Users receive book suggestions tailored to their tastes and preferences.
 Enhanced Discoverability: Helps users discover new books they might not have found on their own.
